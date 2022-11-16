@@ -16,36 +16,54 @@
 5. За основу road map выступали:
    + [источник 1](https://miro.medium.com/max/4800/1*dAQJ-UDP3altoQKThbQs_w.webp)
    + [источник 2](https://roadmap.sh/java)
+6. [Вопросы на интервью с ответами](https://github.com/enhorse/java-interview#jvm) 
 
 
 ## RoadMap
-Java
-1. База
-   + переменные и их типы.
-   + Операции над типами.
-   + Условные выражения и конструкции.
+### Java Core
+1. Синтаксис
+   + Prerequisite.
+     1. [JVM, JDK, JRE, JSE,](https://javadevblog.com/chto-takoe-jdk-jre-i-jvm-v-java.html)
+     2. Компилятор и интерпретатор. -> [краткое пояснение](https://qna.habr.com/q/679242)
+     3. Установка IDEA, JDK и первый **'hello world'** -> [пример](https://metanit.com/java/tutorial/1.5.php)
+     4. Статейки:
+        + [Введение в компиляторы, интерпретаторы и JIT’ы](https://habr.com/ru/company/vk/blog/304748/)
+   + Переменные.
+     1. [Источник 1](https://javarush.ru/groups/posts/peremennie-v-java)
+     2. [Источник 2](https://metanit.com/java/tutorial/2.1.php)
+   + Типы данных.
+     1. [Источник 1](https://metanit.com/java/tutorial/2.12.php)
+     2. [Источник 1](http://developer.alexanderklimov.ru/android/java/types.php)
+   + Операторы (Операции над типами).
+   + [Условные выражения и конструкции.](https://metanit.com/java/tutorial/2.5.php)
    + Циклы.
    + Массивы.
    + Методы.
-2. Классы и ООП.
-   + База. Т.е понимание, что такое ООП, его основные концепции и парадигмы. 
-   + Пакеты.
+2. ООП.
+   + Prerequisite
+   + Классы
+   + Методы классов
    + Модификаторы доступа.
+   + Парадигмы (Наследование, Полиморфизм, Инкапсуляция, Абстракция)
    + Наследования.
+   + Полиморфизм.
+   + Инкапсуляция.
    + Интерфейсы.
    + Абстрактные классы.
    + Клонирование объектов.
-3. Базовые Java классы.
+   + Пакеты.
+3. Классы библиотеки.
    + Object.
    + String.
-4. Исключения
-Может только познакомлю, чтобы понимал если встретишь.
-5. Коллекции.
-   1. Set
-   2. List
-   3. Map
-6. Лямбда Функции.
-
+   + Коллекции
+     1. Set
+     2. List
+     3. Map
+   + Исключения
+   + Лямбда Функции.
+   + Stream API
+   + [Generic](https://habr.com/ru/company/sberbank/blog/416413/)
+   + Работа с файлами
 
 ## Инструменты
 Здесь будет то, к чему будем приступать постепенно по мере необходимости.  
@@ -66,6 +84,7 @@ Java
 + `Patterns` - то часто встречающееся решение определённой проблемы при проектировании архитектуры программ.
   + [Вот](https://refactoring.guru/ru/design-patterns/what-is-pattern) самый лучший сайт по потернам проектирования. 
 + `Http/Https` - протоколы передачи данных.
++ `IP, TCP, and HTTP` - [статейка по протоколам](https://www.objc.io/issues/10-syncing-data/ip-tcp-http/).
 + `REST` - архитектурный стиль взаимодействия компонентов распределённого приложения в сети.
 + `Maven` - сборщик проектов для java, а т.е. собирает все фалы зависимости и тд в **JAR** файл, который можно исполнять.
 + `Database` - **todo**. Тут по Sql че-то будет.
@@ -79,7 +98,9 @@ Java
 Не будем смотреть, сложные темы. Может когда-нибудь...
 1. Stream Api
 2. Многопоточность
-3. Сборщик мусора
+3. [Сборщик мусора](https://habr.com/ru/post/269621/)
+4. [загрузка классов](https://javarush.ru/groups/posts/646-kak-proiskhodit-zagruzka-klassov-v-jvm)
+5. [JVM Run-Time Data Areas](https://www.programcreek.com/2013/04/jvm-run-time-data-areas/)
 
 ## Пед проект
 #### **todo**
