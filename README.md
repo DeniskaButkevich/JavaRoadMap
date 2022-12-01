@@ -36,9 +36,10 @@
      2. [Источник 1](http://developer.alexanderklimov.ru/android/java/types.php)
    + Операторы (Операции над типами).
    + [Условные выражения и конструкции.](https://metanit.com/java/tutorial/2.5.php)
-   + Циклы.
-   + Массивы.
-   + Методы.
+   + [Циклы (For, While, Do while)](https://www.youtube.com/watch?v=y3Xu5o6Pxfg).
+   + [Массивы в Java](https://www.youtube.com/watch?v=li86TEAEhYM).
+   + [Функции](https://www.youtube.com/watch?v=ROomaUIke2c).
+   + [switch case](https://www.youtube.com/watch?v=QJHcGWbzk3U&ab_channel=alishev)
 2. ООП.
    + Prerequisite
    + Классы
